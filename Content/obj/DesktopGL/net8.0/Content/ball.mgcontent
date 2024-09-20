@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>/Users/benglish/Documents/projects/personal/mgContentlessx64/Content/ball.png</SourceFile>
+  <SourceTime>2024-09-19T20:01:30.8827373-04:00</SourceTime>
+  <DestFile>/Users/benglish/Documents/projects/personal/mgContentlessx64/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
+  <DestTime>2024-09-19T20:02:00.2734235-04:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2024-08-16T13:05:56-04:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
