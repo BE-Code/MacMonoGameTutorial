@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/Users/benglish/Documents/projects/personal/mgContentlessx64/Content/balli.png</File>
+    <File>/Users/benglish/Documents/projects/personal/mgContentlessx64/Content/ball.png</File>
+    <File>/Users/benglish/Documents/projects/personal/mgContentlessx64/Content/Screenshot.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

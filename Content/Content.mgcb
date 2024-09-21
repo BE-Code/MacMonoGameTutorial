@@ -12,7 +12,12 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin balli.png
+#begin ball.png
 /importer:TextureImporter
 /processor:TextureProcessor
-/build:balli.png
+/build:ball.png
+#begin Screenshot.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/build:Screenshot.png
+

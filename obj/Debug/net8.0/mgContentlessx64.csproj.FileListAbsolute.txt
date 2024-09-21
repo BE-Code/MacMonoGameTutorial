@@ -24,4 +24,4 @@
 /Users/benglish/Documents/projects/personal/mgContentlessx64/obj/Debug/net8.0/mgContentlessx64.genruntimeconfig.cache
 /Users/benglish/Documents/projects/personal/mgContentlessx64/obj/Debug/net8.0/ref/mgContentlessx64.dll
 /Users/benglish/Documents/projects/personal/mgContentlessx64/bin/Debug/net8.0/Content/ball.xnb
-/Users/benglish/Documents/projects/personal/mgContentlessx64/bin/Debug/net8.0/Content/balli.xnb
+/Users/benglish/Documents/projects/personal/mgContentlessx64/bin/Debug/net8.0/Content/Screenshot.xnb
