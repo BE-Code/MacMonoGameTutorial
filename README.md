@@ -13,6 +13,10 @@ Monogame tutorial set up with [Contentless](https://github.com/Ellpeck/Contentle
 - Run `dotnet new install MonoGame.Templates.CSharp`
 - Install "C# Dev Kit" Extension in VS Code 
 ### Each Project:
+Either:
+- Clone/Fork this repository and work from there
+
+Or:
 - Create a folder for the new project
 - Open the folder in VS Code
 - Open the terminal with Ctrl + \` (backtick)
