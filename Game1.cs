@@ -10,6 +10,8 @@ public class Game1 : Game
     Vector2 ballPosition;
     float ballSpeed;
 
+    int deadZone;
+
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
@@ -26,6 +28,7 @@ public class Game1 : Game
         ballPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2,
                                    _graphics.PreferredBackBufferHeight / 2);
         ballSpeed = 100f;
+        deadZone = 4096;
 
         base.Initialize();
     }
@@ -44,6 +47,54 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+
+        // The time since Update was called last.
+        float updatedBallSpeed = ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+        var kstate = Keyboard.GetState();
+
+        if (kstate.IsKeyDown(Keys.Up))
+        {
+            ballPosition.Y -= updatedBallSpeed;
+        }
+
+        if (kstate.IsKeyDown(Keys.Down))
+        {
+            ballPosition.Y += updatedBallSpeed;
+        }
+
+        if (kstate.IsKeyDown(Keys.Left))
+        {
+            ballPosition.X -= updatedBallSpeed;
+        }
+
+        if (kstate.IsKeyDown(Keys.Right))
+        {
+            ballPosition.X += updatedBallSpeed;
+        }
+
+        if(Joystick.LastConnectedIndex == 0)
+        {
+            JoystickState jstate = Joystick.GetState((int) PlayerIndex.One);
+
+            if (jstate.Axes[1] < -deadZone)
+            {
+                ballPosition.Y -= updatedBallSpeed;
+            }
+            else if (jstate.Axes[1] > deadZone)
+            {
+                ballPosition.Y += updatedBallSpeed;
+            }
+
+            if (jstate.Axes[0] < -deadZone)
+            {
+                ballPosition.X -= updatedBallSpeed;
+            }
+            else if (jstate.Axes[0] > deadZone)
+            {
+                ballPosition.X += updatedBallSpeed;
+            }
+        }
 
         base.Update(gameTime);
     }

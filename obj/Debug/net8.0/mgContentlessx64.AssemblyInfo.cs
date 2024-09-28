@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mgContentlessx64")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+297a6441bf98c90d8b4460f46bc11d37838b26d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fede3803da728643caa9b2e30e68ed1e5f23a9fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("mgContentlessx64")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mgContentlessx64")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
