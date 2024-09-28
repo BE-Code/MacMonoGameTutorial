@@ -1,5 +1,5 @@
 # MonoGame Tutorial (M2 MacBook)
-Monogame tutorial set up with [Contentless](https://github.com/Ellpeck/Contentless) to bypass mgcb
+Monogame tutorial set up with [Contentless](https://github.com/Ellpeck/Contentless) to bypass mgcb-editor
 ## Run
 `dotnet run`
 ## How-To Set up MonoGame on Apple Silicon Mac
